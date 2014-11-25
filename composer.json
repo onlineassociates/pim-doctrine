@@ -1,0 +1,17 @@
+{
+    "name": "onlineassociates/pim-doctrine",
+    "type": "pimcore-plugin",
+    "license": "BSD-3-Clause",
+    "description": "Doctrine 2 ORM integration with Pimcore 3",
+    "keywords": ["pimcore","doctrine","doctrine2", "plugin"],
+    "authors": [
+        {
+            "name": "OA Team",
+            "homepage": "https://github.com/onlineassociates/pim-doctrine",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "pimcore/installer-plugin": ">=1"
+    }
+}

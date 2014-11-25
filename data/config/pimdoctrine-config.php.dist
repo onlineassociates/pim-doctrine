@@ -1,0 +1,39 @@
+<?php
+
+return [
+
+    'doctrine' => [
+
+        /**
+         * Leave it commented to use the configuration from system.xml
+         */
+//        'connection' => [
+//            'orm_default' => [
+//
+//                'params' => [
+//                    'host'      => 'localhost',
+//                    'port'      => '3306',
+//                    'user'      => '',
+//                    'password'  => '',
+//                    'dbname'    => '',
+//                    'driver' => 'pdo_mysql',
+//                ],
+//            ],
+//        ],
+
+        /**
+         * Set it null to remove the table prefix
+         */
+
+        'table_prefix' => 'doctrine_',
+
+        /**
+         * Configure Paths here
+         */
+
+
+        'paths'        => [
+            'website/models/Website/Entity/'
+        ]
+    ],
+];
